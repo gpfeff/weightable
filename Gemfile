@@ -7,6 +7,7 @@ gem 'rails', '4.0.1'
 gem 'sqlite3'
 
 #This is a gem
+#another gem 
 gem 'hirb'
 
 gem 'pry'
