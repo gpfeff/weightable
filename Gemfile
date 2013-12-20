@@ -14,7 +14,7 @@ gem 'bootstrap'
 
 gem 'binding_of_caller'
 
-gem 'gem_errors'
+gem 'better_errors'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
