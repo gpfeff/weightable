@@ -16,6 +16,10 @@ gem 'binding_of_caller'
 
 gem 'better_errors'
 
+gem 'omniauth'
+
+gem 'omniauth-facebook'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
