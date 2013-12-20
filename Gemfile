@@ -18,9 +18,9 @@ gem 'better_errors'
 
 gem 'omniauth'
 
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '1.4.0'
 
-gem 'figaro'
+# gem 'figaro'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

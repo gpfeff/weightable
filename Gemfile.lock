@@ -47,9 +47,6 @@ GEM
     execjs (2.0.2)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
-    figaro (0.7.0)
-      bundler (~> 1.0)
-      rails (>= 3, < 5)
     hashie (2.0.5)
     hike (1.2.3)
     hirb (0.7.1)
@@ -81,9 +78,9 @@ GEM
     omniauth (1.1.4)
       hashie (>= 1.2, < 3)
       rack
-    omniauth-facebook (1.5.1)
-      omniauth-oauth2 (~> 1.1.0)
-    omniauth-oauth2 (1.1.1)
+    omniauth-facebook (1.4.0)
+      omniauth-oauth2 (~> 1.0.2)
+    omniauth-oauth2 (1.0.3)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
     polyglot (0.3.3)
@@ -151,12 +148,11 @@ DEPENDENCIES
   binding_of_caller
   bootstrap
   coffee-rails (~> 4.0.0)
-  figaro
   hirb
   jbuilder (~> 1.2)
   jquery-rails
   omniauth
-  omniauth-facebook
+  omniauth-facebook (= 1.4.0)
   pry
   rails (= 4.0.1)
   sass-rails (~> 4.0.0)
