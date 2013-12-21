@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20131220213628) do
 
   create_table "friends", force: true do |t|
@@ -37,6 +38,16 @@ ActiveRecord::Schema.define(version: 20131220213628) do
     t.float    "current_weight"
     t.date     "current_date"
     t.string   "picture"
+=======
+ActiveRecord::Schema.define(version: 20131220222050) do
+
+  create_table "users", force: true do |t|
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "name"
+    t.string   "oauth_token"
+    t.datetime "oauth_expires_at"
+>>>>>>> facebook
     t.datetime "created_at"
     t.datetime "updated_at"
   end
