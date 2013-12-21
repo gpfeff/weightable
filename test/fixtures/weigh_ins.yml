@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  current_weight: 1.5
+  current_date: 2013-12-20
+  picture: MyString
+
+two:
+  current_weight: 1.5
+  current_date: 2013-12-20
+  picture: MyString

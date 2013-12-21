@@ -6,6 +6,8 @@ gem 'rails', '4.0.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+gem 'devise'
+
 gem 'hirb'
 
 gem 'pry'
@@ -15,6 +17,12 @@ gem 'bootstrap'
 gem 'binding_of_caller'
 
 gem 'better_errors'
+
+gem 'omniauth'
+
+gem 'omniauth-facebook', '1.4.0'
+
+gem 'figaro'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
