@@ -78,9 +78,6 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.2)
-<<<<<<< HEAD
-    orm_adapter (0.4.0)
-=======
     multipart-post (1.2.0)
     oauth2 (0.8.1)
       faraday (~> 0.8)
@@ -96,7 +93,7 @@ GEM
     omniauth-oauth2 (1.0.3)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
->>>>>>> facebook
+    orm_adapter (0.4.0)
     polyglot (0.3.3)
     pry (0.9.12.4)
       coderay (~> 1.0)
@@ -164,11 +161,8 @@ DEPENDENCIES
   binding_of_caller
   bootstrap
   coffee-rails (~> 4.0.0)
-<<<<<<< HEAD
   devise
-=======
   figaro
->>>>>>> facebook
   hirb
   jbuilder (~> 1.2)
   jquery-rails
