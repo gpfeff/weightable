@@ -4,7 +4,6 @@ Weightable::Application.routes.draw do
   match 'auth/failure', to: redirect('/'), via: [:get, :post]
   match 'signout', to: 'sessions#destroy', as: 'signout', via: [:get, :post]
 
-
-  # root "/"
+  # root to: 'sessions#create'
 
 end
