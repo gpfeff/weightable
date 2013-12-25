@@ -1,3 +1,3 @@
-Weightable::Application.routes.draw do
-  root 
+Weightable::Application.routes.draw do 
+  devise_for :users
 end
