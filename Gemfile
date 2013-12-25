@@ -18,9 +18,9 @@ gem 'binding_of_caller'
 
 gem 'better_errors'
 
-gem 'omniauth'
+# gem 'omniauth'
 
-gem 'omniauth-facebook', '1.4.0'
+# gem 'omniauth-facebook', '1.4.0'
 
 gem 'figaro'
 
