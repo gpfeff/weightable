@@ -1,0 +1,35 @@
+#signin.col-sm-5
+  .col-md-2
+  .col-md-8
+    .Sign_in
+      %form
+        %strong Sign In:
+        email:
+        %input{name: "email", type: "text"}/
+        password:
+        %input{name: "password", type: "password"}/
+        %button.btn.btn-primary{type: "button"} Sign In
+        \- or -
+        %button.btn.btn-primary
+          %i.fa.fa-facebook  
+          | Connect with Facebook
+  .col-md-2
+#signup.col-sm-7
+  .col-md-2
+  .col-md-8
+    .Sign_in
+      %form
+        %strong Sign Up:
+        name:
+        %input{name: "name", type: "text"}/
+        email:
+        %input{name: "email", type: "text"}/
+        password:
+        %input{name: "password", type: "password"}/
+        retype password:
+        %input{name: "confirmPassword", type: "password"}/
+        %button.btn.btn-primary{type: "button"} Sign In
+        \- or -
+        %button.btn.btn-primary
+          %i.fa.fa-facebook  
+          | Connect with Facebook
